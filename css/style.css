@@ -1,0 +1,79 @@
+@font-face{
+	font-family: "Raleway";
+	src:url('../Font/raleway/Raleway-Medium.ttf');
+}
+body{
+	background: #000 no-repeat center center fixed;
+	-webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%; 
+}
+.transparant{
+	background: rgba(0,0,0,0.5);
+	left: 0px;
+	top: 0px;
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	width: 100%;
+	z-index: -999999;
+	position: fixed;
+}
+h1{
+	padding-top: 0 auto;
+	font-family: 'Raleway';
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	text-shadow:5px 7px 2px black;
+}
+h4 {
+    font-family: 'Raleway';
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    text-shadow: 4px 7px 3px #121212;
+}
+a{
+	text-decoration: none;
+	color: white;
+	text-shadow: 4px 7px 3px #121212;
+}
+a:hover{
+	color: yellow;
+	text-decoration: none;
+}
+/********************* MARQUE ATAS *********************/
+.kotak{
+	background-color: rgba(0,0,130,0.5);
+	width: 100%;
+	font-weight: bold;
+	color: white;
+	font-family: 'Raleway';
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-color: 0 0 0 2px solid white;
+}
+/********************* ZOOM EFECT *********************/
+
+.box img {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.zoom-effect:hover .box img {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+/********************* FOOTER *********************/
+.footer{
+	border-top:2px solid #ddd;
+	background-color: black;
+	width:100%;
+	padding: 10px;
+	margin-bottom: 7px;
+}
